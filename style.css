@@ -1,0 +1,40 @@
+
+
+.poster{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.container__title{
+    background-color: #F985C3;
+    padding: 20px;
+}
+
+.container__title h1{
+    text-align: center;
+}
+
+.container__box1, .container__box2, .container__box3{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    height: 50%;
+}
+
+.container__mini{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    margin: solid white 20px;
+    padding-top: 20px;
+}
